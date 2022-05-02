@@ -1,0 +1,111 @@
+/*  --------------Whyfrispes--------------------------------------------------------------------- */
+
+.whyfrispes {
+  display: flex;
+  height: 421px;
+  margin-top: 112px;
+}
+
+.our-support {
+  width: 50%;
+  display: flex;
+  margin: 50px 0 0 15px;
+}
+
+.title-numbers {
+  font-family: "Lora Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #10375c;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-name {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9a9a9a;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.meeting-rooms-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 24px;
+}
+
+.our-supports-block {
+  display: flex;
+  margin: 0 0 64px 0;
+}
+
+.our-support-left {
+  margin: 0 124px 0 0;
+}
+
+/*  --------------Why frispes--------------------------------------------------------------------- */
+
+.why-frispes {
+  width: 50%;
+  height: 421px;
+  background: #10375c;
+  margin: 0 0 0 45px;
+}
+
+.why-frispes-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 54px 0 0 53px;
+}
+
+.why-frispes-title {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rectangle-2 {
+  background: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 0 0 15px;
+}
+
+.why-frispes-subtitle {
+  width: 433px;
+  font-family: "Lora Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #ffffff;
+  margin: 8px 0 0 53px;
+}
+
+.why-frispes-content {
+  width: 433px;
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin: 24px 0 0 53px;
+}

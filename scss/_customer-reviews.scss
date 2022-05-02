@@ -1,0 +1,82 @@
+/*  --------------Customer reviews---------------------------------------------------------------------- */
+
+.customer-reviews {
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 112px;
+}
+
+.customer-reviews-top {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-reviews-line {
+  display: flex;
+  align-items: center;
+  margin: 0 0 8px 0;
+}
+.customer-reviews-navigator {
+  margin: 100px 0 0 0;
+}
+
+.customer-reviews-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 56px 0 0 0;
+}
+
+.customer-reviews-left-profile {
+  background-image: url(/img/review-image1.png);
+}
+
+.customer-reviews-center-profile {
+  background-image: url(/img/review-image2.png);
+  margin: 0 30px;
+}
+
+.customer-reviews-right-profile {
+  width: 325px;
+  background-image: url(/img/review-image3.png);
+}
+
+.customer-reviews-name {
+  display: flex;
+  margin: 94px 0 35px 40px;
+}
+
+.customer-reviews-content {
+  width: 365px;
+  height: 156px;
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 47px 40px 0 40px;
+}
+
+.name-profile {
+  margin: 0 0 0 16px;
+}
+
+.name-surname {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.jop {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}

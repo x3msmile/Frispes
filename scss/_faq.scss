@@ -1,0 +1,89 @@
+/*  --------------FAQ--------------------------------------------------------------------- */
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 112px;
+}
+
+.faq-center {
+  display: flex;
+  justify-content: space-between;
+  margin: 54px 0 0 0;
+}
+
+.faq-left-box {
+  width: 350px;
+  height: 174px;
+  box-shadow: 0px 4px 16px rgba(223, 223, 223, 0.5);
+}
+
+.faq-left-box-title {
+  font-family: "Lora Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin: 42px 40px 0 40px;
+}
+
+.faq-center-box {
+  height: 171px;
+  width: 350px;
+  background: #ff5722;
+  margin: 0 25px;
+}
+
+.faq-center-box-title {
+  font-family: "Lora Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+  margin: 42px 40px 0 40px;
+}
+
+.faq-right-box {
+  width: 350px;
+  height: 174px;
+  box-shadow: 0px 4px 16px rgba(223, 223, 223, 0.5);
+  background: #ffffff;
+}
+
+.faq-right-box-title {
+  font-family: "Lora Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  margin: 42px 40px 0 40px;
+}
+
+.faq-image-link {
+  margin: 0 0 0 110px;
+}
+
+.faq-bottom {
+  display: flex;
+  margin-top: 64px;
+}
+
+.item-orange-text {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ff5722;
+}
+
+.link-orange-text {
+  margin: 5px 0 0 19px;
+}

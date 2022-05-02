@@ -1,0 +1,55 @@
+/*  --------------Facilites---------------------------------------------------------------------- */
+
+.facilites {
+  margin-top: 112px;
+}
+
+.facilites-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+
+.header-facilites-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.facilites-item {
+  width: 293px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  padding: 24px;
+}
+
+.facilites-item-link {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222831;
+}
+
+.facilites-item-color {
+  width: 293px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  padding: 24px;
+  background: #ff5722;
+  box-shadow: 0px 6px 24px rgba(255, 87, 34, 0.3);
+}
+
+.facilites-item-link-color {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}

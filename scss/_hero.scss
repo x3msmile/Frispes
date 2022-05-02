@@ -1,0 +1,246 @@
+/*  --------------Hero---------------------------------------------------------------------- */
+
+.hero {
+  width: 100%;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 61px 0 0 0;
+}
+
+.frispes {
+  display: flex;
+  width: 89px;
+  cursor: default;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #10375c;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 0 0 0 184px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.home {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+}
+
+.workspace {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+  color: #ff5722;
+}
+
+.service {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+}
+
+.events {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+}
+
+.reviews {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  margin: 0 40px 0 0;
+}
+
+.contact-us {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+
+.link-item-color {
+  color: #ff5722;
+}
+
+.link-item {
+  color: #222831;
+}
+
+.cta {
+  display: flex;
+  margin: 0 0 0 81px;
+}
+
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ff5722;
+  box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+  padding: 12px 24px;
+}
+
+.log-in {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ff5722;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+
+.sign-up {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*  --------------Intro---------------------------------------------------------------------- */
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin: 56px 0 0 0;
+}
+
+.title-line {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222831;
+}
+
+.title-line-image {
+  background: #222831;
+  margin: 0 0 0 15px;
+  width: 73px;
+}
+
+/*  --------------Content---------------------------------------------------------------------- */
+
+.content {
+  height: 201px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 667px;
+  font-family: "Lora Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  height: 120px;
+  color: #10375c;
+}
+
+.color-revolutionary {
+  color: #dd2c00;
+}
+
+.subtitle {
+  width: 382px;
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6a6a6a;
+}
+
+/*  --------------Image slider---------------------------------------------------------------------- */
+
+.image-slider {
+  height: 566px;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+  background-image: url(/img/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 33px 0 0 0;
+}
+
+.indicator {
+  position: absolute;
+  margin: 506px 0 0 524px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 5px;
+}
+
+.image-link {
+  height: 5px;
+}
+
+.image-link:not(:last-child) {
+  margin: 0 4px 0 0;
+}

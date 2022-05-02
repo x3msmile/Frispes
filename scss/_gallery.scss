@@ -1,0 +1,43 @@
+/*  --------------Gallery---------------------------------------------------------------------- */
+
+.gallery {
+  display: flex;
+  width: 1440px;
+  margin: 0px auto;
+  margin-top: 112px;
+}
+
+.gallery-image-one {
+  margin-top: 255px;
+}
+
+.gallery-image-two {
+  margin: 0 30px;
+}
+
+.gallery-top {
+  margin-left: 44px;
+}
+
+.gallery-top-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.gallery-top-scroll {
+  margin-top: 38px;
+  margin-bottom: 51px;
+}
+
+.gallery-bottom {
+  display: flex;
+}
+
+.gallery-image-right {
+  margin: 0 0 0 30px;
+}
+
+.right-navigator {
+  margin-left: 23px;
+}

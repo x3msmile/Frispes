@@ -1,0 +1,158 @@
+/*  --------------Our Space Section---------------------------------------------------------------------- */
+
+.header-our-space-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 112px 0 0 0;
+}
+
+.title-section {
+  font-family: "Lora Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #10375c;
+}
+
+.subtitle-our-space-section {
+  width: 452px;
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #9a9a9a;
+}
+
+.navigator {
+  display: flex;
+}
+
+.left-navigator {
+  margin: 0 23px 0 0;
+}
+
+/*  --------------Space Cards---------------------------------------------------------------------- */
+
+.space-cards {
+  display: flex;
+  height: 476px;
+  margin: 55px 0 0 0;
+}
+
+.space-one-three {
+  display: flex;
+  flex-direction: column;
+  height: 468px;
+  width: 350px;
+}
+
+.space-one-card {
+  width: 350px;
+  height: 419px;
+  background-image: url(/img/image-one-space.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.space-title {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222831;
+  margin: 20px 0 0 0;
+}
+
+.left-space-cards {
+  position: absolute;
+  margin: 347px 0 0 0;
+}
+
+/*  --------------Space Cards Two---------------------------------------------------------------------- */
+
+.space-two {
+  width: 350px;
+  height: 467px;
+  background-image: url(/img/image-two-space.png);
+  box-shadow: 0px 6px 24px rgba(16, 55, 92, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 30px;
+}
+
+.space-two-title {
+  font-family: "Lora Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: #ffffff;
+  margin: 144px 74px 0 75px;
+}
+
+.space-two-subtitle {
+  width: 253px;
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  margin: 14px 42px 0 55px;
+}
+
+.space-two-check {
+  position: absolute;
+  margin: 112px 0 0 0;
+}
+
+/*  --------------Space Cards Three---------------------------------------------------------------------- */
+
+.space-three-card {
+  width: 350px;
+  height: 419px;
+  background-image: url(/img/image-three-space.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*  --------------Space Navigator--------------------------------------------------------------------- */
+
+.navigator-space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-status {
+  display: flex;
+  margin: 40px 0 0 0;
+}
+
+.line-grey {
+  width: 120px;
+}
+
+.pages-list {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #222831;
+  margin: 7px 0 0 0;
+}
+
+.page-grey {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #9a9a9a;
+}
